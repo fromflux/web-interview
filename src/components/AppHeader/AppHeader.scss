@@ -1,0 +1,38 @@
+@import '../../constants.scss';
+
+.app-header {
+  padding: $gutter-size--large;
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: $secondary-light;
+
+  border-bottom: $border-standard;
+
+  .menu-button {
+    cursor: pointer;
+  }
+
+  .app-logo {
+    max-height: 33px;
+  }
+
+  .user-bubble {
+    cursor: pointer;
+
+    background-color: $icon-color;
+    color: $secondary-light;
+    border-radius: 64px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
